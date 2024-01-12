@@ -1,0 +1,278 @@
+
+
+body {
+    background-color: yellow;
+    margin: 0; /* Remove default margin */
+    
+}
+
+* {
+    box-sizing: border-box; /* Include padding and border in the box model */
+}
+.text-run {
+    background-color: black;
+}
+.running-text {
+    padding: px;
+    color: lightgreen;
+    font-size: 7.5px;
+    animation: marquee 7.5s linear infinite;
+
+}
+div.bahasa {
+    text-align: center;
+}
+.p-cont{
+   
+    list-style: none;
+}
+
+.deskripsi {
+    list-style: none;
+}
+
+
+
+img {
+    height: 200px;
+    margin-left: 10px;
+}
+
+.porto{
+    display: flex;
+    padding-top: 20px;   
+    
+}
+
+.portofolio {
+    justify-content: space-between;
+}
+
+.logo {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.webdes{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+
+#git_logo {
+    font-size: 80px;
+}
+
+.running-text:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+.nav-1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between; /* Adjusted to move items to both ends */
+    margin-left: auto;
+}
+.fa-home {
+margin-left: -20px;
+}
+.fa-search {
+    margin-right: 15px;
+}
+
+
+.nav-1, .foot, .copyr, .konten{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.fa {
+    font-size: 20px;
+    
+}
+
+#link {
+    color: white;
+}
+a:hover, #main--1:hover{
+    color: darkslategray;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 80px; /* Adjust margin-top to create space for the fixed navbar */
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#main--1:hover {
+    border-bottom: 3px solid gray;
+}
+
+.youtube {
+    width: 300px;
+}
+
+header.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above other elements */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portofolio {
+    display: flex;
+}
+
+
+#cpr {
+    animation: marq 7.5s infinite;
+}
+#cpr:hover {
+    animation-play-state: paused;
+}
+
+.langs {
+    gap: 10px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.html {
+    color: blue;
+}
+
+.css {
+    color: cyan;
+}
+
+.javascript {
+    color: orange;
+}
+
+
+
+
+
+
+
+@keyframes marq {
+        0% {
+            color: #333;
+        }
+        9%{
+            color: yellow;
+        }
+        10% {
+           color: #333; 
+        }
+        11% {
+            color: yellow; 
+         }
+         12% {
+            color: #333; 
+         }
+         13% {
+            color: yellow; 
+         }
+         40% {
+            color: #333;
+         }
+         41% {
+            color: yellow;
+         }
+         42% {
+            color: #333;
+         }
+         43% {
+            color: yellow;
+         }
+         44% {
+            color: #333;
+         }
+         45%{
+            color: yellow ;
+         }
+        100% {
+            color: #333;
+          
+        }
+      }
+
+
+@media (max-width: 500px) {
+    #git_logo {
+        font-size: 30px;
+    }
+
+    .fa {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 10px;
+        margin-right: auto;
+    }
+    h1 {
+        font-size: 25px;
+    }
+
+    #cpr {
+        margin-left: 40px;
+    }
+
+    .porto-pic {
+        width: 240px;
+        height: 135px;
+    }
+
+    .deskripsi {
+        font-size: 15px;
+    }
+    .portofolio {
+        display: contents;
+    }   
+
+    
+    
+}
