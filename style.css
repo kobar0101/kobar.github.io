@@ -25,6 +25,16 @@ div.bahasa {
     list-style: none;
 }
 
+a {
+    font-family: monospace;
+}
+
+.deskripsi-link{
+    color: blue;
+    text-decoration:underline;
+    font-family: monospace;
+}
+
 .deskripsi {
     list-style: none;
     font-family: monospace;
@@ -49,9 +59,6 @@ img {
     
 }
 
-.portofolio {
-    justify-content: space-between;
-}
 
 .logo {
     text-align: center;
