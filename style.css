@@ -1,7 +1,8 @@
 body {
     background-color: yellow;
     margin: 0; /* Remove default margin */
-    
+    font-family: monospace;
+    font-weight: bolder;
 }
 
 * {
@@ -168,6 +169,7 @@ footer {
 
 .portofolio {
     display: flex;
+    justify-content: center;
 }
 
 
@@ -178,7 +180,11 @@ footer {
     animation-play-state: paused;
 }
 
-
+.porto-pic{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
 
 .porto02 {
     text-align: center;
@@ -189,8 +195,37 @@ footer {
     display: flex;
 }
 
+.html {
+    padding-left: 100px;
+}
 
+.harga {
+    padding-top: 10px;
+}
 
+.des-harga {
+    text-align: center;
+    margin: auto;
+    padding-top: px;
+}
+
+.des-harga1 {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    padding-top: 60px;
+}
+
+.des-harga2 {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    padding-top: 60px;
+}
+
+.pesan {
+    text-align: center;
+}
 
 @keyframes marq {
         0% {
@@ -270,16 +305,24 @@ footer {
         margin-left: 40px;
     }
 
-    
+    .box1 {
+        background-color: yellow;
+        padding-right: 20px;
+    }
 
     .deskripsi {
         font-size: 15px;
+        text-align: center;
+        display: contents;
     }
     .portofolio {
         display: contents;
         
     }   
 
-    
+    #mocha {
+        text-align: center;
+        margin: auto;
+    }
     
 }
