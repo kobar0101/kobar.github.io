@@ -12,7 +12,6 @@ body {
     background-color: black;
 }
 .running-text {
-    padding: px;
     color: lightgreen;
     font-size: 7.5px;
     animation: marquee 7.5s linear infinite;
@@ -281,6 +280,15 @@ footer {
     }
 }
 @media (max-width: 500px) {
+
+    .rt {
+        padding-right: 10px;
+    }
+
+    .home {
+        margin-top: 150px;
+    }
+
     #git_logo {
         font-size: 30px;
     }
