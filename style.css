@@ -1,8 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 body {
-    background-color: yellow;
+    background-image:url(pic/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0; /* Remove default margin */
-    font-family: monospace;
     font-weight: bolder;
+    color: white;
+}
+
+.home {
+    padding-top: 145px;
 }
 
 * {
@@ -25,19 +38,15 @@ div.bahasa {
     list-style: none;
 }
 
-a {
-    font-family: monospace;
-}
 
 .deskripsi-link{
     color: blue;
     text-decoration:underline;
-    font-family: monospace;
+    
 }
 
 .deskripsi {
     list-style: none;
-    font-family: monospace;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -62,12 +71,10 @@ img {
 
 .logo {
     text-align: center;
-    font-family: monospace;
     font-weight: bold;
 }
 
 .webdes{
-    font-family: monospace;
     font-weight: bolder;
     font-size: large;
     text-align: center;
@@ -92,7 +99,7 @@ img {
   }
 
 .nav-1 {
-    background-color: white;
+    background-color: #333;
     display: flex;
     justify-content: space-between; /* Adjusted to move items to both ends */
     margin-left: auto;
@@ -118,31 +125,34 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: lightgreen;
     font-size: 20px;
 }
 
 .fa {
     font-size: 20px;
-    
+    color: lightgreen;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 #link {
     color: white;
 }
-a:hover, #main--1:hover{
-    color: darkslategray;
-}
 
 h1, h2 {
     text-align: center;
     margin-top: 80px; /* Adjust margin-top to create space for the fixed navbar */
-    font-family: monospace;
     font-weight: bolder;
 }
 
+#main--1 {
+    transition: background-color 0.5s ease-in-out;
+}
+
 #main--1:hover {
-    border-bottom: 3px solid gray;
+    background-color: black;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .youtube {
@@ -205,7 +215,6 @@ footer {
 .des-harga {
     text-align: center;
     margin: auto;
-    padding-top: px;
 }
 
 .des-harga1 {
@@ -314,7 +323,7 @@ footer {
     }
 
     .box1 {
-        background-color: yellow;
+       
         padding-right: 20px;
     }
 
